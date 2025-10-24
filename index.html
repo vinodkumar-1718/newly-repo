@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <span><h1 class="m">My name </h1></span>
+  <span><h2 class="n">K.Vinodkumar</h2></span>
+  <title>Food Order Registration</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>
+    <h1 class="blue"><hr> Online Food Order Registration <hr></h1>    
+    <form action="">
+      <label > Full Name:</label>
+      <input type="text" required /><br><br><br>
+
+      <label>Phone Number:</label>
+      <input type="tel" required pattern="[0-9]{10}" placeholder="" /><br><br><br>
+
+      <labelss>Delivery Address:</label>
+      <textarea id="address" rows="3" required></textarea><br><br><br>
+
+      <label>Select Food Item:</label>
+      <select id="food" required><br><br><br>
+        <option value="">--Choose an item--</option>
+        <option class="vk" value="Pizza">Pizza</option>s
+        <option value="Burger">Burger</option>
+        <option value="Samosa">Samosa</option>
+        <option value="Pasta">Pasta</option>
+        <option value="Salad">Salad</option>
+      </select><br><br><br>
+
+      <label>Quantity:</label>
+      <input type="number" id="quantity" min="1" value="1" required /><br><br><br>
+      <button class="red" type="submit">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>
